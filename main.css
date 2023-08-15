@@ -58,6 +58,7 @@ nav button{
     font-size: 15px;
     color: black;
     background-color: rgb(3, 184, 3);
+    font-weight: 600;
     
 }
 
@@ -67,8 +68,9 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blueviolet;
+    background: linear-gradient(to right, magenta, blueviolet);
     padding: 70px;
+    /* border: 1px solid red; */
 }
 
 .item1{
@@ -105,4 +107,15 @@ section h1{
     color: black;
     background-color: rgb(3, 184, 3);
     font-weight: 600;
+}
+
+
+.item2{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 40px;
 }
